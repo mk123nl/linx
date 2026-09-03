@@ -36,10 +36,10 @@ import com.linx.app.ui.theme.LinxColors
 private data class TabItem(val label: String, val icon: ImageVector)
 
 private val tabs = listOf(
-    TabItem("首页", Icons.Home),
-    TabItem("发现", Icons.Explore),
-    TabItem("书架", Icons.CollectionsBookmark),
-    TabItem("我的", Icons.Person),
+    TabItem("首页", Icons.Filled.Home),
+    TabItem("发现", Icons.Filled.Explore),
+    TabItem("书架", Icons.Filled.CollectionsBookmark),
+    TabItem("我的", Icons.Filled.Person),
 )
 
 @OptIn(ExperimentalMaterial3Api::class)
