@@ -167,7 +167,7 @@ fun MusicRow(index: Int, onClick: () -> Unit = {}) {
                 ),
             contentAlignment = Alignment.Center,
         ) {
-            Icon(Icons.MusicNote, contentDescription = null, tint = Color.White)
+            Icon(Icons.Filled.MusicNote, contentDescription = null, tint = Color.White)
         }
         Spacer(Modifier.width(LinxDimens.S12))
         Column(Modifier.weight(1f)) {
@@ -186,7 +186,7 @@ fun MusicRow(index: Int, onClick: () -> Unit = {}) {
         }
         IconButton(onClick = onClick) {
             Icon(
-                Icons.PlayCircle,
+                Icons.Filled.PlayCircle,
                 contentDescription = null,
                 tint = LinxColors.Brand,
                 modifier = Modifier.size(36.dp),

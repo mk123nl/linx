@@ -8,7 +8,7 @@ import com.linx.app.ui.components.EmptyState
 @Composable
 fun ShelfScreen() {
     EmptyState(
-        icon = Icons.CollectionsBookmark,
+        icon = Icons.Filled.CollectionsBookmark,
         title = "书架还是空的",
         subtitle = "收藏的小说、音乐、广播剧和漫画都会出现在这里",
         actionLabel = "去逛逛",

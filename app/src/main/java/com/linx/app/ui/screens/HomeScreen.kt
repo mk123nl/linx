@@ -169,7 +169,7 @@ private fun SearchBarBox() {
             .padding(horizontal = LinxDimens.S16, vertical = LinxDimens.S12),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(Icons.Search, contentDescription = null, tint = scheme.onSurfaceVariant)
+        Icon(Icons.Filled.Search, contentDescription = null, tint = scheme.onSurfaceVariant)
         Spacer(Modifier.width(LinxDimens.S8))
         Text(
             "搜小说 / 音乐 / 广播剧 / 漫画",
@@ -187,10 +187,10 @@ private fun SearchBarBox() {
 }
 
 private val quickEntries = listOf(
-    Triple("小说", Icons.MenuBook, LinxColors.Brand),
-    Triple("音乐", Icons.MusicNote, LinxColors.Accent),
-    Triple("广播剧", Icons.Headphones, Color(0xFF00B8A9)),
-    Triple("漫画", Icons.AutoStories, LinxColors.Gold),
+    Triple("小说", Icons.Filled.MenuBook, LinxColors.Brand),
+    Triple("音乐", Icons.Filled.MusicNote, LinxColors.Accent),
+    Triple("广播剧", Icons.Filled.Headphones, Color(0xFF00B8A9)),
+    Triple("漫画", Icons.Filled.AutoStories, LinxColors.Gold),
 )
 
 @Composable
@@ -239,7 +239,7 @@ private fun WebSearchCard() {
             .padding(horizontal = LinxDimens.S16, vertical = LinxDimens.S14),
         verticalAlignment = Alignment.CenterVertically,
     ) {
-        Icon(Icons.TravelExplore, contentDescription = null, tint = Color.White)
+        Icon(Icons.Filled.TravelExplore, contentDescription = null, tint = Color.White)
         Spacer(Modifier.width(LinxDimens.S12))
         Column(Modifier.weight(1f)) {
             Text("站内找不到？去全网搜", color = Color.White,
@@ -247,7 +247,7 @@ private fun WebSearchCard() {
             Text("内置浏览器，搜到就能听能看", color = Color.White.copy(alpha = 0.8f),
                 style = MaterialTheme.typography.bodySmall)
         }
-        Icon(Icons.ChevronRight, contentDescription = null, tint = Color.White.copy(alpha = 0.8f))
+        Icon(Icons.Filled.ChevronRight, contentDescription = null, tint = Color.White.copy(alpha = 0.8f))
     }
 }
 

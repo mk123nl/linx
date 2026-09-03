@@ -60,7 +60,7 @@ fun ExploreScreen() {
                 contentAlignment = Alignment.Center,
             ) {
                 Column(horizontalAlignment = Alignment.CenterHorizontally) {
-                    Icon(Icons.AutoStories, contentDescription = null, tint = Color.White)
+                    Icon(Icons.Filled.AutoStories, contentDescription = null, tint = Color.White)
                     Spacer(Modifier.height(LinxDimens.S8))
                     Text("内容位", color = Color.White, style = MaterialTheme.typography.labelMedium)
                 }
