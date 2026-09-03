@@ -7,12 +7,13 @@ import androidx.compose.material3.lightColorScheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.Color
 
+// 玻璃表面：半透明的白/深色，让背景透出来
 private val LightColors = lightColorScheme(
     primary = LinxColors.Brand,
     onPrimary = Color.White,
     secondary = LinxColors.Accent,
     background = LinxColors.BgLight,
-    surface = Color.White,
+    surface = Color(0xB3FFFFFF),
     onSurface = LinxColors.InkLight,
     onSurfaceVariant = LinxColors.InkSubLight,
 )
@@ -22,7 +23,7 @@ private val DarkColors = darkColorScheme(
     onPrimary = Color.White,
     secondary = LinxColors.Accent,
     background = LinxColors.BgDark,
-    surface = LinxColors.SurfaceDark,
+    surface = Color(0x8C1A1B26),
     onSurface = LinxColors.InkDark,
     onSurfaceVariant = LinxColors.InkSubDark,
 )
