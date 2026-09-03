@@ -22,6 +22,7 @@ object LinxColors {
 
 object LinxDimens {
     val S2 = 2.dp; val S4 = 4.dp; val S8 = 8.dp; val S12 = 12.dp
+    val S6 = 6.dp; val S10 = 10.dp; val S14 = 14.dp
     val S16 = 16.dp; val S20 = 20.dp; val S24 = 24.dp; val S32 = 32.dp
     val R8 = 8.dp; val R12 = 12.dp; val R16 = 16.dp; val R20 = 20.dp
     val Full = 999.dp
